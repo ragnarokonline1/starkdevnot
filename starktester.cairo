@@ -4,7 +4,7 @@ mod HelloSir {
     use starknet::ContractAddress;
 
 
-    #[event]
+    #[external]
     fn Bye(from: ContractAddress, value: felt252) {}
 
 
