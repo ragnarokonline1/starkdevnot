@@ -4,6 +4,7 @@ mod GooddayStarknet {
     use starknet::ContractAddress;
 
 
+
     #[event]
     fn Byebye(from: ContractAddress, value: felt252) {}
 
