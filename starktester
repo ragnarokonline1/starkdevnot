@@ -5,7 +5,7 @@ mod GooddayStarknet {
 
 #module
 
-    #[event]
+    #[external]
     fn Byebye(from: ContractAddress, value: felt252) {}
 
 
