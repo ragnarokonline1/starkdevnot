@@ -9,8 +9,8 @@ mod GooddayStarknet {
     fn Byebye(from: ContractAddress, value: felt252) {}
 
 
-    #[external]
-    fn Say_Hello(message: felt252) {
+    #[internal]
+    fn Say_Byemessage: felt252) {
         let caller = get_caller_address();
         Hello(caller, message);
     }
