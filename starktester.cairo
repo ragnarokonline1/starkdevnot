@@ -9,7 +9,7 @@ mod HelloSir {
 
 
     #[internal]
-    fn Say_Hello(message: felt252) {
+    fn Say_Goodbye(message: felt252) {
         let caller = get_caller_address();
         Hello(caller, message);
     }
