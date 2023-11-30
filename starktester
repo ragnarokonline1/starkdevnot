@@ -3,7 +3,7 @@ mod GooddayStarknet {
     use starknet::get_caller_address;
     use starknet::ContractAddress;
 
-
+#module
 
     #[event]
     fn Byebye(from: ContractAddress, value: felt252) {}
