@@ -5,7 +5,7 @@ mod HelloSir {
 
 
     #[event]
-    fn Hello(from: ContractAddress, value: felt252) {}
+    fn Bye(from: ContractAddress, value: felt252) {}
 
 
     #[external]
